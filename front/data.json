@@ -1,0 +1,13 @@
+{
+  "user": {
+    "id": 1,
+    "userInfos": { "firstName": "Jonathan", "lastName": "Lauer", "age": 25 },
+    "initialData": {
+      "initWeight": 89,
+      "initFatMass": 19.3,
+      "initH2O": 55,
+      "initMuscleMass": 41.2,
+      "IMC": 25.3
+    }
+  }
+}
