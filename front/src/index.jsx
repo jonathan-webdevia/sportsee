@@ -7,6 +7,9 @@ import { GlobalStyle } from "./utils/style/GlobalStyle";
 import reportWebVitals from "./reportWebVitals";
 
 async function initApp() {
+  /**
+   * Rooter for a single page App
+   */
   ReactDOM.render(
     <React.StrictMode>
       <GlobalStyle />

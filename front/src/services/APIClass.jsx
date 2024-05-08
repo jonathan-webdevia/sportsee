@@ -4,6 +4,9 @@ export default class user {
   constructor(userId, service) {
     this.user = userId;
 
+    /**
+     * Endpoint determination
+     */
     switch (service) {
       case "activities":
         this.URL = `${BASE_URL}/user/${userId}/performance`;
@@ -23,21 +26,24 @@ export default class user {
         break;
     }
   }
+
+  /**
+   * API call
+   */
   async APICalling() {
     let data = null;
     try {
       const response = await fetch(this.URL);
       data = await response.json();
-      /**
-       *  A TESTER
-       */
-      // console.log(data);
     } catch (err) {
       console.log("Une erreur est survenue");
     }
     return data;
   }
 
+  /**
+   * get data & preformatting
+   */
   async getActivities() {
     let data = await this.APICalling();
     const activities = [];
