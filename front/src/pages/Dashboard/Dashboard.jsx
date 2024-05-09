@@ -48,7 +48,7 @@ export function Dashboard() {
         <Content>
           <MainTitle>
             Bonjour <Name>{`${fisrtName}`}</Name>
-    </MainTitle>
+          </MainTitle>
           <Message>
             <span>
               Félicitations ! Vous avez explosé vos objectifs hier ! &nbsp;👏

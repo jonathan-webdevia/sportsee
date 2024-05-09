@@ -10,19 +10,15 @@ export default class user {
     switch (service) {
       case "activities":
         this.URL = `${BASE_URL}/user/${userId}/performance`;
-        this.dataAccess = ".data.data";
         break;
       case "average-sessions":
         this.URL = `${BASE_URL}/user/${userId}/average-sessions`;
-        this.dataAccess = ".data.sessions";
         break;
       case "daily-activity":
         this.URL = `${BASE_URL}/user/${userId}/activity`;
-        this.dataAccess = ".data.sessions";
         break;
       default:
         this.URL = `${BASE_URL}/user/${userId}`;
-        this.dataAccess = "";
         break;
     }
   }
