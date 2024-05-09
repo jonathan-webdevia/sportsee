@@ -1,11 +1,12 @@
 export const styleVar = {
-  /**
-   * primary color
-   */
+  /*****************
+   * primary color *
+   *****************/
   primaryRed: "#ff0101",
-  /**
-   * shades of grey
-   */
+
+  /******************
+   * shades of grey *
+   ******************/
   grey1: "#fbfbfb",
   grey2: "#dedede",
   grey3: "#9b9eac",

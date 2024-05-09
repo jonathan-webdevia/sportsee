@@ -42,7 +42,7 @@ export default class user {
   }
 
   /**
-   * get data & preformatting
+   * get data methods & preformatting responses
    */
   async getActivities() {
     let data = await this.APICalling();
